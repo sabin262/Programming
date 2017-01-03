@@ -59,10 +59,10 @@ public class Car
      */
     public void display()
     {
-        System.out.println("Description: " + getDescription());
+        System.out.println("Car Description: " + getDescription());
         if(customerName!="")
         {
-            System.out.println("Name: " + customerName);
+            System.out.println("Customer Name: " + customerName);
         }
     }
 }
