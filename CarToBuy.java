@@ -12,13 +12,13 @@ public class CarToBuy extends Car
     /**
      * Constructor for CarToBuy
      */
-    public CarToBuy(String desc,int p,int r,int m)
+    public CarToBuy(String description,int price,int registrationYear,int mileage)
     {
-        super(desc);
-        price=p;
-        registrationYear=r;
-        mileage=m;
-        sold=false; 
+        super(description);
+        this.price = price;
+        this.registrationYear = registrationYear;
+        this.mileage = mileage;
+        sold = false; 
     }
     
     /**
@@ -72,15 +72,15 @@ public class CarToBuy extends Car
      * Return type: void
      * Access modifier: public
      */
-    public void setPrice(int i)
+    public void setPrice(int price)
     {
-        if(sold==true)
+        if(getSold() == true)
         {
-            System.out.println("The car has been sold. No further changes allowed.");
+            System.out.println("The car has been sold. No further changes allowed.\n");
         }
         else
         {
-            price=i;
+            this.price = price;
         }
     }
     
@@ -89,16 +89,16 @@ public class CarToBuy extends Car
      * Return type: void
      * Access modifier: public
      */
-    public void buyCar(String name)
+    public void buyCar(String customerName)
     {
-        if(sold==true)
+        if(getSold() == true)
         {
-            System.out.println("The car already has been sold.");
+            System.out.println("The car already has been sold.\n");
         }
         else
         {
-            setCustomerName(name);
-            sold=true;
+            setCustomerName(customerName);
+            sold = true;
         }
     }
     
@@ -110,7 +110,7 @@ public class CarToBuy extends Car
     public void display()
     {
         super.display();
-        if(sold==false)
+        if(getSold() == false)
         {
             System.out.println("Price: " + getPrice());
             System.out.println("Registration Year: " + getRegistrationYear());

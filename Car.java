@@ -14,8 +14,8 @@ public class Car
      */
     public Car(String s)
     {
-        description=s;
-        customerName =""; 
+        description = s;
+        customerName = ""; 
     }
     
     /**
@@ -60,7 +60,7 @@ public class Car
     public void display()
     {
         System.out.println("Car Description: " + getDescription());
-        if(customerName!="")
+        if(customerName != "")
         {
             System.out.println("Customer Name: " + customerName);
         }

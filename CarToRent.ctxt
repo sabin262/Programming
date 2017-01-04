@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.params=desc\ adminFee\ dailyRate
+comment0.params=description\ adminFee\ dailyRate
 comment0.target=CarToRent(java.lang.String,\ int,\ int)
 comment1.params=
 comment1.target=java.lang.String\ getRentalDate()

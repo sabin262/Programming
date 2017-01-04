@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.params=desc\ p\ r\ m
+comment0.params=description\ price\ registrationYear\ mileage
 comment0.target=CarToBuy(java.lang.String,\ int,\ int,\ int)
 comment0.text=\r\n\ Constructor\ for\ CarToBuy\r\n
 comment1.params=
@@ -14,10 +14,10 @@ comment3.text=\r\n\ Getter/Accessor\ (method)\r\n\ Method\:\ getMileage\r\n\ Ret
 comment4.params=
 comment4.target=boolean\ getSold()
 comment4.text=\r\n\ Getter/Accessor\ (method)\r\n\ Method\:\ getSold\r\n\ Return\ type\:\ boolean\r\n\ Access\ modifier\:\ public\r\n
-comment5.params=i
+comment5.params=price
 comment5.target=void\ setPrice(int)
 comment5.text=\r\n\ Setter/Mutator\ (method)\r\n\ Method\:\ setPrice\r\n\ Parameter\:\ i\ of\ type\ int\r\n\ Return\ type\:\ void\r\n\ Access\ modifier\:\ public\r\n
-comment6.params=name
+comment6.params=customerName
 comment6.target=void\ buyCar(java.lang.String)
 comment6.text=\r\n\ Method\:\ buyCar\r\n\ Return\ type\:\ void\r\n\ Access\ modifier\:\ public\r\n
 comment7.params=
